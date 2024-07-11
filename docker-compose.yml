@@ -34,7 +34,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - pgadmin-data:/var/lib/pgadmin
+      - pgadmin-data:./db/pgadmin
 
 
     
